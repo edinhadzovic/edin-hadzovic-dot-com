@@ -30,7 +30,7 @@ class MyDocument extends Document {
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
         </Head>
-        <body>
+        <body className='p-0'>
           <Layout>
             <Main />
             <NextScript />
