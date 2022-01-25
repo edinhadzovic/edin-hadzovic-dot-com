@@ -1,3 +1,5 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 export const Layout = (props) => {
@@ -18,6 +20,21 @@ export const Layout = (props) => {
                         <a className="hover:text-slate-300 font-bold" href="/my-projects">my projects</a>
                         <a className="hover:text-slate-300 font-bold" href="/articles">articles</a>
                     </nav>
+                    <div className="flex justify-end pt-4 border-t-2 border-t-slate-700">
+                        <div className="flex space-x-4">
+                            <a href="https://github.com/edinhadzovic">
+                                <FontAwesomeIcon icon={faGithub} className="w-6 h-6 hover:text-green-500"/>
+                            </a>
+                            <a href="https://at.linkedin.com/in/edinhadzovic">
+                                <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 hover:text-green-500"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <a className="hover:text-green-500" href="mailto:contract@edinhadzovic.com">
+                            contact@edinhadzovic.com
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="w-4/5">

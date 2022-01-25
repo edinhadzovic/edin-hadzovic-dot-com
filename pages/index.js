@@ -12,7 +12,7 @@ export default function Home(props) {
                     </div>
                     <hr />
                     <div className="w-2/3 lg:text-xl">
-                        <p>I am full stack developer working like a <span className="text-blue-500">freelancer</span>. Love to learn, teach and write about technology, programming, science, cryptocurrency and internet culture. <a className="text-green-500 hover:text-green-400" href="/about">read more <span className="text-sm">{`>`}</span></a></p>
+                        <p>I am full stack developer working like a <span className="text-blue-500">freelancer</span>. Love to learn, teach and write about technology, programming, science, cryptocurrency and internet culture. <a className="text-sm text-green-500 hover:text-green-400" href="/about">read more</a></p>
                     </div>
                 </div>
             </div>
