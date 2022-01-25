@@ -3,7 +3,7 @@ import React from "react";
 export default function Home(props) {
 
     return (
-        <>
+        <div className="sm:ml-4">
             <div className="flex h-screen content-center justify-center">
                 <div className="flex flex-col justify-center self-center space-y-2">
                     <div className="space-y-1">
@@ -64,6 +64,6 @@ export default function Home(props) {
                 </div>
             </div>
             
-        </>
+        </div>
     );
 };
