@@ -65,5 +65,6 @@ img.next-image {
 }
 
 .nav-line .nav-link {
+  display: none;
   color: #69778c;
 }

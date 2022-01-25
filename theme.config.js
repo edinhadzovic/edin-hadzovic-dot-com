@@ -1,7 +1,6 @@
 const YEAR = new Date().getFullYear()
 
 export default {
-  navs: [],
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Edin Hadzovic.
