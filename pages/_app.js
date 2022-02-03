@@ -21,7 +21,9 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <div className='mx-5'>
+        <Component {...pageProps} />
+      </div>
     </>
   )
 }

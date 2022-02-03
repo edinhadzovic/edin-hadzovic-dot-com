@@ -3,7 +3,7 @@ import React from "react";
 export default function Home(props) {
 
     return (
-        <div className="sm:ml-4">
+        <div className="">
             <div className="flex h-screen content-center justify-center">
                 <div className="flex flex-col justify-center self-center space-y-2">
                     <div className="space-y-1">
@@ -27,7 +27,7 @@ export default function Home(props) {
                             <h4 className="text-2xl">Denovo Gmbh</h4>
                             <p>Working as a full stack developer for couple months, working on B2B platforms, around recycling, and using react, nodejs, express, graphql, postgressSQL, in a Agile product development cycles.</p>
                             <p>
-                                <a className="text-green-500 hover:text-green-400" href="">more</a>
+                                <a className="text-green-500 hover:text-green-400" href="/work">more</a>
                             </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function Home(props) {
                             <h4 className="text-2xl">Kounotori Token</h4>
                             <p>A community driven cryptocurrency, like Doge, building community and a defi protocol using ethereum, web3, react and typescript</p>
                             <p>
-                                <a className="text-green-500 hover:text-green-400" href="">more</a>
+                                <a className="text-green-500 hover:text-green-400" href="/my-projects">more</a>
                             </p>
                         </div>
                     </div>
@@ -52,18 +52,17 @@ export default function Home(props) {
                         <h3 className="text-3xl">articles</h3>
                         <hr />
                     </div>
-                    <div className="py-4 flex">
+                    <div className="py-4 flex">w
                         <div className="w-1/2 space-y-4">
                             <h4 className="text-2xl">No articles right now!</h4>
                             <p>Working on my first article to talk about cryptocurrency in general, and if web3 is just a buzz word or a real thing.</p>
                             <p>
-                                <a className="text-green-500 hover:text-green-400" href="">more</a>
+                                <a className="text-green-500 hover:text-green-400" href="/articles">more</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 };
