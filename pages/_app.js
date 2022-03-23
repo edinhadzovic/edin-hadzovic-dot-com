@@ -2,6 +2,7 @@ import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
 
 import '../styles/main.css'
+import { Layout } from '../components/layout'
 
 export default function Nextra({ Component, pageProps }) {
   return (
@@ -21,9 +22,12 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <div className='mx-5'>
-        <Component {...pageProps} />
-      </div>
+      <Layout>
+        <div className='mx-5'>
+          <Component {...pageProps} />
+        </div>
+      </Layout>
+      
     </>
   )
 }

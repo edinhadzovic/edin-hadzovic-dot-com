@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { Layout } from '../components/layout'
+import {Layout} from '../components/layout'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -31,10 +31,8 @@ class MyDocument extends Document {
           <meta name="twitter:image" content={meta.image} />
         </Head>
         <body className='p-0'>
-          <Layout>
             <Main />
             <NextScript />
-          </Layout>
         </body>
       </Html>
     )
