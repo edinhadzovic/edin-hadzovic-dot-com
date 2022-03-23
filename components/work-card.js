@@ -7,7 +7,7 @@ export const WorkCard = (props) => {
 
     return (
         <Link href={to}>
-            <a className={`group ${position === 'top' ? 'mt-10' : 'mb-10'}`}>
+            <a className={`group ${position === 'top' ? 'sm:mt-10' : 'sm:mb-10'}`}>
                 <div className="h-80 w-full bg-black "></div>
                 <div className="space-y-2">
                     <div className="flex mt-10">
