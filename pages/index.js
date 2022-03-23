@@ -87,7 +87,7 @@ export default function Home(props) {
                         </div>
                     </div>
                 </section>
-                <section className="sm:h-screen w-full flex sm:justify-center sm:items-center">
+                <section className="py-10 sm:py-0 sm:h-screen w-full flex sm:justify-center sm:items-center">
                     <div>
                         <div className="w-1/2 text-center mx-auto text-xl sm:text-2xl leading-relaxed">
                             I have a passion to create products and services that are seamless, meaningful and impactful.
