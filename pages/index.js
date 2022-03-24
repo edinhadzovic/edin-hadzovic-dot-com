@@ -24,13 +24,13 @@ export default function Home(props) {
                         <p className="text-4xl lg:text-8xl text-gray-800 text-center leading-relaxed lg:pb-12 lg:mb-12">
                         <span className="px-4 bg-gray-800 text-gray-100">Full-Stack</span> <b className="text-gray-800">Developer</b>
                         </p>
-                        <FloatingIcons icon={faGithub} className="hidden lg:flex -top-28 left-10" />
-                        <FloatingIcons icon={faLinkedin} className="hidden lg:flex bottom-28 right-0"/>
-                        <FloatingIcons icon={faCodepen} className="hidden lg:flex right-80 -bottom-52"/>
+                        <FloatingIcons link="https://github.com/edinhadzovic" icon={faGithub} className="hidden lg:flex -top-28 left-10" />
+                        <FloatingIcons link="https://www.linkedin.com/in/edinhadzovic" icon={faLinkedin} className="hidden lg:flex bottom-28 right-0"/>
+                        <FloatingIcons link="https://codepen.io/edinhadzovic" icon={faCodepen} className="hidden lg:flex right-80 -bottom-52"/>
                         <div className="flex justify-center my-4">
-                            <Icon icon={faGithub} className="lg:hidden" />
-                            <Icon icon={faLinkedin} className="lg:hidden" />
-                            <Icon icon={faCodepen} className="lg:hidden" />
+                            <Icon link="https://github.com/edinhadzovic" icon={faGithub} className="lg:hidden" />
+                            <Icon link="https://www.linkedin.com/in/edinhadzovic" icon={faLinkedin} className="lg:hidden" />
+                            <Icon link="https://codepen.io/edinhadzovic" icon={faCodepen} className="lg:hidden" />
                         </div>
                         
                     </div>
