@@ -20,35 +20,35 @@ export const Navigation = (props) => {
                         <div className="grid grid-cols-1 my-16 text-center items-center text-2xl font-bold">
                             <div className="py-6 sm:py-8">
                                 <Link href="/">
-                                    <a className={router.pathname === "/" ? "line-through decoration-yellow-400" : ""}>
+                                    <a className={router.pathname === "/" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Home
                                     </a>
                                 </Link>
                             </div>
                             <div className="py-6 sm:py-8">
                                 <Link href="/about">
-                                    <a className={router.pathname === "/about" ? "line-through decoration-yellow-400" : ""}>
+                                    <a className={router.pathname === "/about" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         About me
                                     </a>
                                 </Link>
                             </div>
                             <div className="py-6 sm:py-8">
                                 <Link href="/work">
-                                    <a className={router.pathname === "/work" ? "line-through decoration-yellow-400" : ""}>
+                                    <a className={router.pathname === "/work" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Work
                                     </a>
                                 </Link>
                             </div>
                             <div className="py-6 sm:py-8">
                                 <Link href="/my-projects">
-                                    <a className={router.pathname === "/my-projects" ? "line-through decoration-yellow-400" : ""}>
+                                    <a className={router.pathname === "/my-projects" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Side Projects
                                     </a>
                                 </Link>
                             </div>
                             <div className="py-6 sm:py-8">
                                 <Link href="/blog">
-                                    <a className={router.pathname === "/blog" ? "line-through decoration-yellow-400" : ""}>
+                                    <a className={router.pathname === "/blog" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Blog
                                     </a>
                                 </Link>

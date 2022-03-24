@@ -93,16 +93,9 @@ export default function Home(props) {
                             I have a passion to create products and services that are seamless, meaningful and impactful.
                         </div>
                         <div className="w-1/2 text-center mx-auto text-2xl leading-relaxed mt-10">
-                            <Link href="/about">
-                                <a>
-                                    <div className="group flex justify-center items-center">
-                                        <h5>About me</h5>
-                                        <div>
-                                            <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5 ml-5 group-hover:text-yellow-300" />
-                                        </div>
-                                    </div>
-                                </a>
-                            </Link>
+                            <div className="flex justify-center">
+                                <Action link="/about" isPage={true}>About me</Action>
+                            </div>
                         </div>
                     </div>
                 </section>
