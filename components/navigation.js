@@ -39,14 +39,14 @@ export const Navigation = (props) => {
                                     </a>
                                 </Link>
                             </div>
-                            <div className="py-6 sm:py-8">
+                            <div className="hidden py-6 sm:py-8">
                                 <Link href="/my-projects">
                                     <a className={router.pathname === "/my-projects" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Side Projects
                                     </a>
                                 </Link>
                             </div>
-                            <div className="py-6 sm:py-8">
+                            <div className="hidden py-6 sm:py-8">
                                 <Link href="/blog">
                                     <a className={router.pathname === "/blog" ? "line-through decoration-yellow-400" : ""} onClick={() => setActive(false)}>
                                         Blog
