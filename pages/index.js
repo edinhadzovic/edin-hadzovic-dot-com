@@ -39,49 +39,33 @@ export default function Home(props) {
                     <div className="container mx-auto">
                         <h2 className="m-9 text-4xl">Work</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 my-20">
+                            
                             <WorkCard
-                                to="/"
+                                to="/work/icomedias"
                                 title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
+                                desc="Building Micorservices and Admin Portal"
+                                years="Nov 2018 - Mar 2021"
+                                firm="Icomedias Gmbh"
+                                
+                                firmLink="https://www.hybridforms.net/"
                             />
                             <WorkCard
-                                to="/"
+                                to="/work/denovo"
                                 title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
+                                desc="Building REST API services and web apps"
+                                years="May 2021 - Dec 2021"
+                                firm="Denovo Gmbh"
                                 position="bottom"
+                                firmLink="https://www.denovo.at/"
                             />
+                            <div></div>
                             <WorkCard
-                                to="/"
-                                title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
-                            />
-                            <WorkCard
-                                to="/"
-                                title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
-                                position="bottom"
-                            />
-                            <WorkCard
-                                to="/"
-                                title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
-                            />
-                            <WorkCard
-                                to="/"
-                                title="Full-Stack Developer"
-                                desc="Building rest api services and web apps"
-                                years="2015-2020"
-                                firm="denovo"
+                                to="/work/midlight"
+                                title="Fontend Developer"
+                                desc="Building Website with pure javascript and concrete5 (php)"
+                                years="Jun 2017 - Jun 2018"
+                                firm="Midlight GmbH"
+                                firmLink="https://chax.at/"
                                 position="bottom"
                             />
                         </div>

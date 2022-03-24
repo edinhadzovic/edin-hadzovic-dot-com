@@ -68,7 +68,6 @@ export default function About(props) {
                             <h3 className="text-4xl sm:ml-3">Current<br /> <span className="ml-8">Favorites</span></h3>
                         </div>
                         <div>
-                            <p className="text-center text-sm">Some things i like to use and do</p>
                             <div className="my-4">
                                 <div className="flex">
                                     <div className="flex flex-wrap w-full">

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 export const WorkCard = (props) => {
-    const { to, title, desc, years, firm, position = 'top' } = props;
+    const { to, title, desc, years, firm, firmLink, position = 'top' } = props;
 
     return (
         <Link href={to}>
@@ -19,7 +19,7 @@ export const WorkCard = (props) => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-sm">{desc} &bull; {years} &bull; {firm}</p>
+                        <p className="text-sm">{desc} &bull; {years} &bull; <a className="text-yellow-400 underline hover:text-yellow-500" href={firmLink} target="_blank" rel="noreferrer">{firm}</a></p>
                     </div>
                 </div>
             </a>
