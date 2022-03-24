@@ -46,7 +46,7 @@ export default function Home(props) {
                                 desc="Building Micorservices and Admin Portal"
                                 years="Nov 2018 - Mar 2021"
                                 firm="Icomedias Gmbh"
-                                
+                                image="/images/work/icomedias.jpeg"
                                 firmLink="https://www.hybridforms.net/"
                             />
                             <WorkCard
@@ -57,6 +57,7 @@ export default function Home(props) {
                                 firm="Denovo Gmbh"
                                 position="bottom"
                                 firmLink="https://www.denovo.at/"
+                                image="/images/work/denovo.jpeg"
                             />
                             <div></div>
                             <WorkCard

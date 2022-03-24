@@ -19,7 +19,7 @@ export default function Work(props) {
                                 desc="Building Micorservices and Admin Portal"
                                 years="Nov 2018 - Mar 2021"
                                 firm="Icomedias Gmbh"
-                                
+                                image="/images/work/icomedias.jpeg"
                                 firmLink="https://www.hybridforms.net/"
                             />
                             <WorkCard
@@ -29,6 +29,7 @@ export default function Work(props) {
                                 years="May 2021 - Dec 2021"
                                 firm="Denovo Gmbh"
                                 position="bottom"
+                                firmLink="https://www.denovo.at/"
                                 firmLink="https://www.denovo.at/"
                             />
                             <div></div>
