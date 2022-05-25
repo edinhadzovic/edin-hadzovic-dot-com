@@ -30,7 +30,7 @@ export default function Work(props) {
                                 firm="Denovo Gmbh"
                                 position="bottom"
                                 firmLink="https://www.denovo.at/"
-                                firmLink="https://www.denovo.at/"
+                                image="/images/work/denovo.jpeg"
                             />
                             <div></div>
                             <WorkCard
