@@ -44,9 +44,6 @@ export default function About(props) {
                             <div className="flex flex-wrap">
                                 <span className="flex-base-33 p-3">Javascript</span>
                                 <span className="flex-base-33 p-3">Typescript</span>
-                                <span className="flex-base-33 p-3">Python</span>
-                                <span className="flex-base-33 p-3">Rust</span>
-                                <span className="flex-base-33 p-3">PHP</span>
                                 <span className="flex-base-33 p-3">Solidity</span>
                                 <span className="flex-base-33 p-3">HTML/CSS/SCSS</span>
                                 <span className="flex-base-33 p-3">NodeJS</span>
@@ -54,11 +51,8 @@ export default function About(props) {
                                 <span className="flex-base-33 p-3">NoSQL</span>
                                 <span className="flex-base-33 p-3">NestJS</span>
                                 <span className="flex-base-33 p-3">React</span>
-                                <span className="flex-base-33 p-3">React Native</span>
-                                <span className="flex-base-33 p-3">Svetle</span>
                                 <span className="flex-base-33 p-3">Git</span>
                                 <span className="flex-base-33 p-3">Docker</span>
-                                <span className="flex-base-33 p-3">Wordpress</span>
                             </div>
                         </div>
                     </div>
