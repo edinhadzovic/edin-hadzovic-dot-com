@@ -14,25 +14,34 @@ export default function Work(props) {
                         <h2 className="m-9 text-4xl">Work</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 my-20">
                             <WorkCard
-                                to="/work/icomedias"
+                                to="/work/wesolutions"
                                 title="Full-Stack Developer"
-                                desc="Building Micorservices and Admin Portal"
-                                years="Nov 2018 - Mar 2021"
-                                firm="Icomedias Gmbh"
+                                desc="Account Managing web application, building rest APIs, and microservices"
+                                years="Sep 2022 - Mar 2024"
+                                firm="Wesolutions GmbH"
+                                
                                 image="/images/work/icomedias.jpeg"
-                                firmLink="https://www.hybridforms.net/"
+                                firmLink="https://www.wesual.at/"
                             />
-                            <WorkCard
+                             <WorkCard
                                 to="/work/denovo"
                                 title="Full-Stack Developer"
                                 desc="Building REST API services and web apps"
                                 years="May 2021 - Dec 2021"
                                 firm="Denovo Gmbh"
-                                position="bottom"
                                 firmLink="https://www.denovo.at/"
                                 image="/images/work/denovo.jpeg"
                             />
-                            <div></div>
+                            <WorkCard
+                                to="/work/icomedias"
+                                title="Full-Stack Developer"
+                                desc="Building Micorservices and Admin Portal"
+                                years="Nov 2018 - Mar 2021"
+                                firm="Icomedias Gmbh"
+                                position="bottom"
+                                image="/images/work/icomedias.jpeg"
+                                firmLink="https://www.hybridforms.net/"
+                            />
                             <WorkCard
                                 to="/work/midlight"
                                 title="Fontend Developer"

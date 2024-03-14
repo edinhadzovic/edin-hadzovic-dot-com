@@ -39,7 +39,25 @@ export default function Home(props) {
                     <div className="container mx-auto">
                         <h2 className="m-9 text-4xl">Work</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 my-20">
-                            
+                            <WorkCard
+                                to="/work/wesolutions"
+                                title="Full-Stack Developer"
+                                desc="Account Managing web application, building rest APIs, and microservices"
+                                years="Sep 2022 - Mar 2024"
+                                firm="Wesolutions GmbH"
+                                position="bottom"
+                                image="/images/work/icomedias.jpeg"
+                                firmLink="https://www.wesual.at/"
+                            />
+                            <WorkCard
+                                to="/work/denovo"
+                                title="Full-Stack Developer"
+                                desc="Building REST API services and web apps"
+                                years="May 2021 - Dec 2021"
+                                firm="Denovo Gmbh"
+                                firmLink="https://www.denovo.at/"
+                                image="/images/work/denovo.jpeg"
+                            />
                             <WorkCard
                                 to="/work/icomedias"
                                 title="Full-Stack Developer"
@@ -48,18 +66,8 @@ export default function Home(props) {
                                 firm="Icomedias Gmbh"
                                 image="/images/work/icomedias.jpeg"
                                 firmLink="https://www.hybridforms.net/"
-                            />
-                            <WorkCard
-                                to="/work/denovo"
-                                title="Full-Stack Developer"
-                                desc="Building REST API services and web apps"
-                                years="May 2021 - Dec 2021"
-                                firm="Denovo Gmbh"
                                 position="bottom"
-                                firmLink="https://www.denovo.at/"
-                                image="/images/work/denovo.jpeg"
                             />
-                            <div></div>
                             <WorkCard
                                 to="/work/midlight"
                                 title="Fontend Developer"
@@ -67,7 +75,6 @@ export default function Home(props) {
                                 years="Jun 2017 - Jun 2018"
                                 firm="Midlight GmbH"
                                 firmLink="https://chax.at/"
-                                position="bottom"
                             />
                         </div>
                     </div>
