@@ -6,11 +6,11 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Your Name',
-    site_url: 'https://yoursite.com',
-    feed_url: 'https://yoursite.com/feed.xml'
+    site_url: 'https://edinhadzovic.com',
+    feed_url: 'https://edinhadzovic.com/feed.xml'
   })
 
-  const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
+  // const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
 
   await Promise.all(
     posts.map(async (name) => {
@@ -35,4 +35,4 @@ async function generate() {
   await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
 }
 
-generate()
+// generate()
