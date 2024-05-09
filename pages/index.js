@@ -46,7 +46,7 @@ export default function Home(props) {
                                 years="Sep 2022 - Mar 2024"
                                 firm="Wesolutions GmbH"
                                 position="bottom"
-                                image="/images/work/icomedias.jpeg"
+                                image="/images/work/wesual.png"
                                 firmLink="https://www.wesual.at/"
                             />
                             <WorkCard
