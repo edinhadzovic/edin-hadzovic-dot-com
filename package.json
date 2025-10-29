@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
     "build": "node ./scripts/gen-rss.js && next build",
     "start": "next start"
   },

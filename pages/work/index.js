@@ -14,13 +14,21 @@ export default function Work(props) {
                         <h2 className="m-9 text-4xl">Work</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 my-20">
                             <WorkCard
+                                to="/work/smaXtec"
+                                title="Application Developer"
+                                desc="Creating innovative software solutions that enable farmers to track cow health, behavior, and productivity in real time to optimize farm performance."
+                                years="July 2024 - still employee"
+                                firm="smaXtec animal care GmbH"
+                                image="/images/work/smaXtec.png"
+                                firmLink="https://smaxtec.com/"
+                            />
+                            <WorkCard
                                 to="/work/wesolutions"
                                 title="Full-Stack Developer"
                                 desc="Account Managing web application, building rest APIs, and microservices"
                                 years="Sep 2022 - Mar 2024"
                                 firm="Wesolutions GmbH"
-                                
-                                image="/images/work/icomedias.jpeg"
+                                image="/images/work/wesual.png"
                                 firmLink="https://www.wesual.at/"
                             />
                              <WorkCard
